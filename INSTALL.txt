@@ -1,0 +1,14 @@
+﻿These are packages to install in order to run the code:
+
+
+* Install “SparkFun ADXL345 Arduino Library” in Arduino
+* Install the Twilio package by running the following command in the terminal on the Raspberry
+   Pi:
+sudo pip3 install twilio
+
+
+To run the code:
+* Upload “teensy_data_acquisition.ino” located within the folder “teensy_data_acquisition” to the
+   Teensy
+* Run “python fall.py imu” in the terminal window of the Raspberry Pi in the directory where the
+   file fall.py is located
