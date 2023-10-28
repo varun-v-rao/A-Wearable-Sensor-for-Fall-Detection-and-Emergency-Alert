@@ -3,7 +3,9 @@ This project is a fall detection system that utilizes wearable sensors and a sig
 
 ## Source Code Files
 `fall.py`: This is the main file of the project that runs on the Raspberry Pi. It reads accelerometer data sent via Bluetooth using the `receive_data` function and processes it using the `process_data` function. The file also includes utility functions used by the data acquisition and signal processing segments of the code. These functions include a recursive moving average function, thresholding feature vectors, and sending emergency alerts.
+
 `teensy_data_acquisition.ino`: This file contains the code for data acquisition. It reads raw accelerometer sensor data and sends its corresponding 'g' value to the Raspberry Pi module using the HC-05 Bluetooth communication module.
+
 ## How to Use
 To use this project, you will need to upload the teensy_data_acquistion.ino file onto the Teensy microcontroller and hook it up to a power supply. 
 Next perform the following tasks on the R-Pi to connect with the teensy unit via Bluetooth:
