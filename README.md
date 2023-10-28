@@ -1,6 +1,23 @@
 # Fall Detection Project ReadMe
 This project is a fall detection system that utilizes wearable sensors and a signal processing algorithm to detect falls in real-time. The source code files in this project are designed to work together to create a fall detection system that can be integrated into other applications
 
+![Full View of Hardware System](docs/images/full_view_of_hardware_system.png?raw=true)
+
+## Introduction & Motivation
+**Introduction:** 
+
+We developed a fall detection system that can identify falls automatically and alert caregivers or emergency services. The system uses wearable sensors to detect sudden movements, changes in posture, and impacts associated with falls. The wearable device processes the sensor data in real time, analyzing the signals to detect fall events.  If the algorithm determines that the user is falling, it initiates a 10 second countdown; If the user does not double tap the device within that time, an emergency alert is sent to a nearby device. 
+
+**Motivation:** 
+
+Fall detection is a critical issue that affects elderly people, especially those who live alone. Falls are the leading cause of accidental deaths and injuries worldwide and can result in serious injuries, and even death. Therefore, developing an automatic fall detection system is an essential area of research. A fall detection system can help identify and respond quickly to a fall, reducing the risk of complications.
+
+## System Architecture
+![System Architecture](docs/images/system_architecture.png?raw=true)
+
+## High-Level Block Diagram
+![Block Diagram](docs/images/high_level_block_diagram.png?raw=true)
+
 ## Source Code Files
 `fall.py`: 
 
