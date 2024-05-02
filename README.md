@@ -1,4 +1,6 @@
-# Fall Detection Project ReadMe
+# Fall Detection Project 
+##### [Poster](https://github.com/varun-v-rao/A-Wearable-Sensor-for-Fall-Detection-and-Emergency-Alert/blob/main/docs/EECS%20452%20Poster.pdf)
+
 This project is a fall detection system that utilizes wearable sensors and a signal processing algorithm to detect falls in real-time. The source code files in this project are designed to work together to create a fall detection system that can be integrated into other applications
 
 ![Full View of Hardware System](docs/images/full_view_of_hardware_system.png?raw=true)
